@@ -49,5 +49,12 @@ public class Usuariocontroller {
         return "redirect:/";
     }
 
+    @GetMapping("/listar")
+        public  String listar(Model model){
+        model.addAttribute("usuarios", iUsuariorepository.findAll());
+        return "listar";
+
+    }
+
 
 }
