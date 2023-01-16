@@ -65,5 +65,6 @@ public class Usuario implements Serializable {
     public void setFoto(String foto) {
         this.foto = foto;
     }
+
     private static final long serialVersionUID = 1L;
 }
