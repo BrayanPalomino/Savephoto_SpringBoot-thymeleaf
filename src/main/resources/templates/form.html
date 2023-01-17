@@ -2,7 +2,7 @@
 <html lang="es" xmlns:th="http://www.w3.org/1999/xhtml">
 <head th:replace ="layouts/base_layout :: head">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Guardar</title>
 </head>
 <body>
 <div class="row justify-content-center">
@@ -15,7 +15,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="card mt-5">
-            <div class="card-header text-center"><h4>SUBIR IMÁGENES - SPRING</h4></div>
+            <div class="card-header text-center"><h4>SUBIR FOTOS - SPRING</h4></div>
             <div class="card-body">
                 <form th:action="@{/}" th:object="${usuarios}" method="POST" enctype="multipart/form-data">
 
